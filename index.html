@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game UI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="logo"a>
+        <h1>Sudoku Game</h1>
+        <div class="icon"></div>
+    </div>
+    
+    
+
+    <div class="container">
+        <!-- Sudoku Grid -->
+        <div class="sudoku-grid">
+            <!-- Sudoku Cells -->
+        <!-- First row -->
+<input type="text" class="sudoku-cell empty" value="5" disabled>
+<input type="text" class="sudoku-cell empty">
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty" >
+<input type="text" class="sudoku-cell" value="6" disabled>
+<input type="text" class="sudoku-cell" value="7" disabled>
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty" value="8" disabled>
+<input type="text" class="sudoku-cell" value="9" disabled>
+<input type="text" class="sudoku-cell empty">
+<input type="text" class="sudoku-cell" value="2" disabled>
+
+<!-- Second row -->
+<input type="text" class="empty sudoku-cell" >
+<input type="text" class=" sudoku-cell" value="7" disabled>
+<input style="border-right: 5px solid black;" type="text" class=" sudoku-cell" value="2" disabled>
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="9" disabled>
+<input style="border-right: 5px solid black;" type="text" class=" sudoku-cell" value="5" disabled> 
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="4" disabled>
+<input type="text" class="empty sudoku-cell">
+
+<!-- Third row -->
+<input type="text" class=" sudoku-cell" value="1" disabled>
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="8" disabled>
+<input type="text" class=" sudoku-cell" value="3" disabled>
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="5" disabled>
+<input type="text" class=" sudoku-cell" value="6" disabled>
+<input type="text" class="empty sudoku-cell">
+
+<!-- Fourth row -->
+<input type="text" class=" sudoku-cell sudoku-cell" value="8" disabled>
+<input type="text" class=" sudoku-cell" value="5" disabled>
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="9" disabled>
+<input type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="1" disabled>
+<input type="text" class=" sudoku-cell" value="4" disabled>
+<input type="text" class=" sudoku-cell" value="2" disabled>
+<input type="text" class=" sudoku-cell" value="3" disabled>
+
+<!-- Fifth row -->
+<input type="text" class=" sudoku-cell" value="4" disabled>
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="5" disabled>
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="3" disabled>
+<input type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="1" disabled>
+
+<!-- Sixth row -->
+<input type="text" class=" sudoku-cell" value="7" disabled>
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="3" disabled>
+<input type="text" class=" sudoku-cell" value="9" disabled>
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell">
+<input type="text" class=" sudoku-cell" value="8" disabled>
+<input type="text" class=" sudoku-cell" value="6" disabled>
+<input type="text" class="empty sudoku-cell">
+
+<!-- Seventh row -->
+<input type="text" class=" sudoku-cell" value="9" disabled>
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="2" disabled>
+<input type="text" class=" sudoku-cell" value="4" disabled>
+<input type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+
+<!-- Eighth row -->
+<input type="text" class=" sudoku-cell" value="3" disabled>
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="6" disabled>
+<input type="text" class=" sudoku-cell" value="5" disabled>
+<input type="text" class=" sudoku-cell" value="2" disabled>
+<input type="text" class=" sudoku-cell" value="9" disabled>
+
+<!-- Ninth row -->
+<input type="text" class=" sudoku-cell" value="2" disabled>
+<input type="text" class=" sudoku-cell" value="4" disabled>
+<input style="border-right: 5px solid black;" type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="8" disabled>
+<input style="border-right: 5px solid black;" type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="3" disabled>
+<input type="text" class="empty sudoku-cell">
+
+
+        </div>
+
+        <!-- Right-side Controls -->
+        <div class="controls">
+            <div class="difficulty-levels">
+                <a href="#" id ="easy">Easy</a>
+                <a href="medium.html"id="medium">Medium</a>
+                <a href="hard.html" id="hard">Hard</a>
+            </div>
+
+            <div class="status-bar">
+                <span>Score: 0</span>
+                <span>Time: 04:10</span>
+            </div>
+
+            <div class="action-buttons">
+                <button id="undoButton">Undo</button>
+                <button id="eraseButton">Erase</button>
+                <button id="notesButton">Notes</button>
+            </div>
+
+            <div class="buttons-grid">
+                <!-- Number Pad -->
+                <button class="key key1">1</button>
+                <button class="key key2">2</button>
+                <button class="key key3">3</button>
+                <button class="key key4">4</button>
+                <button class="key key5">5</button>
+                <button class="key key6">6</button>
+                <button class="key key7">7</button>
+                <button class="key key8">8</button>
+                <button class="key key9">9</button>
+            </div>
+
+            <button class="new-game">New Game</button>
+            
+        </div>
+        <button class="solution">Solution</button>
+    </div>
+</body>
+</html>

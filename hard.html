@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game UI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="logo"a>
+        <h1>Sudoku Game</h1>
+        <div class="icon"></div>
+    </div>
+    
+    
+
+    <div class="container">
+        <!-- Sudoku Grid -->
+        <div class="sudoku-grid">
+        <!-- Sudoku Cells -->
+        <!-- First row -->
+        <input type="text" class="sudoku-cell" value="1" disabled>   <!-- Position 1 (value 1) -->
+        <input type="text" class="sudoku-cell empty">                <!-- Position 2 (empty) -->
+        <input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">                <!-- Position 3 (empty) -->
+        <input type="text" class="sudoku-cell" value="2" disabled>   <!-- Position 4 (value 2) -->
+        <input type="text" class="sudoku-cell" value="5" disabled>   <!-- Position 5 (value 5) -->
+        <input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">                <!-- Position 6 (empty) -->
+        <input type="text" class="sudoku-cell empty">   <!-- Position 7 (value 6) -->
+        <input type="text" class="sudoku-cell empty">                <!-- Position 8 (empty) -->
+        <input type="text" class="sudoku-cell" value="8" disabled>   <!-- Position 9 (value 8) -->
+
+        <!-- Second row -->
+        <input type="text" class="sudoku-cell" value="5" disabled>   <!-- Position 1 (value 5) -->
+        <input type="text" class="sudoku-cell empty">                <!-- Position 2 (empty) -->
+        <input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">                <!-- Position 3 (empty) -->
+        <input type="text" class="sudoku-cell empty">                <!-- Position 4 (empty) -->
+        <input type="text" class="sudoku-cell empty">                <!-- Position 5 (empty) -->
+        <input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">                <!-- Position 6 (empty) -->
+        <input type="text" class="sudoku-cell" value="4" disabled>   <!-- Position 7 (value 4) -->
+        <input type="text" class="sudoku-cell empty">                <!-- Position 8 (empty) -->
+        <input type="text" class="sudoku-cell empty">                <!-- Position 9 (empty) -->
+
+
+<!-- Third row -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 1 (empty) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 2 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="4" disabled>   <!-- Position 3 (value 4) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 4 (empty) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 5 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="7" disabled>   <!-- Position 6 (value 7) -->
+<input type="text" class="sudoku-cell empty">   <!-- Position 7 (value 9) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 8 (empty) -->
+<input type="text" class="sudoku-cell" value="1" disabled>   <!-- Position 9 (value 1) -->
+
+
+<!-- Fourth row -->
+<input type="text" class="sudoku-cell" value="9" disabled>   <!-- Position 1 (value 9) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 2 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">                <!-- Position 3 (empty) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 4 (empty) -->
+<input type="text" class="sudoku-cell empty">   <!-- Position 5 (value 4) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">   <!-- Position 6 (value 5) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 7 (empty) -->
+<input type="text" class="sudoku-cell" value="1" disabled>   <!-- Position 8 (value 1) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 9 (empty) -->
+
+
+<!-- Fifth row -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 1 (empty) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 2 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">                <!-- Position 3 (empty) -->
+<input type="text" class="sudoku-cell empty">   <!-- Position 4 (value 7) -->
+<input type="text" class="sudoku-cell" value="2" disabled>   <!-- Position 5 (value 2) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="6" disabled>   <!-- Position 6 (value 6) -->
+<input type="text" class="sudoku-cell empty">   <!-- Position 7 (value 3) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 8 (empty) -->
+<input type="text" class="sudoku-cell empty">                <!-- Position 9 (empty) -->
+
+
+<!-- Sixth row -->
+<input type="text" class="sudoku-cell empty">     <!-- Position 1 (value 7) -->
+<input type="text" class="sudoku-cell empty">                 <!-- Position 2 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">     <!-- Position 3 (value 8) -->
+<input type="text" class="sudoku-cell" value="8" disabled>     <!-- Position 4 (value 9) -->
+<input type="text" class="sudoku-cell" value="9" disabled>                 <!-- Position 5 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">                 <!-- Position 6 (empty) -->
+<input type="text" class="sudoku-cell empty">     <!-- Position 7 (value 6) -->
+<input type="text" class="sudoku-cell empty">     <!-- Position 8 (value 5) -->
+<input type="text" class="sudoku-cell empty">                 <!-- Position 9 (empty) -->
+
+<!-- Seventh row -->
+<input type="text" class="sudoku-cell" value="6" disabled>      <!-- Position 1 (value 6) -->
+<input type="text" class="sudoku-cell empty">                  <!-- Position 2 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="8" disabled>      <!-- Position 3 (value 8) -->
+<input type="text" class="sudoku-cell empty">                  <!-- Position 4 (empty) -->
+<input type="text" class="sudoku-cell empty">                  <!-- Position 5 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">      <!-- Position 6 (value 2) -->
+<input type="text" class="sudoku-cell empty">      <!-- Position 7 (value 4) -->
+<input type="text" class="sudoku-cell empty">                  <!-- Position 8 (empty) -->
+<input type="text" class="sudoku-cell empty">                  <!-- Position 9 (empty) -->
+
+<!-- Eighth row -->
+<input type="text" class="sudoku-cell empty">      <!-- Position 1 (empty) -->
+<input type="text" class="sudoku-cell empty">                  <!-- Position 2 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell empty">      <!-- Position 3 (value 1) -->
+<input type="text" class="sudoku-cell" value="1" disabled>                  <!-- Position 4 (empty) -->
+<input type="text" class="sudoku-cell empty">                  <!-- Position 5 (empty) -->
+<input style="border-right: 5px solid black;" type="text" class="sudoku-cell" value="2" disabled>      <!-- Position 6 (value 2) -->
+<input type="text" class="sudoku-cell empty">      <!-- Position 7 (value 8) -->
+<input type="text" class="sudoku-cell" value="8" disabled>      <!-- Position 8 (value 5) -->
+<input type="text" class="sudoku-cell empty">      <!-- Position 9 (value 9) -->
+
+<!-- Ninth row -->
+<input type="text" class=" sudoku-cell" value="2" disabled> 
+<input type="text" class=" sudoku-cell empty">
+<input style="border-right: 5px solid black;" value="1" type="text" class="sudoku-cell" disabled>
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell empty">
+<input style="border-right: 5px solid black;" type="text" class="empty sudoku-cell">
+<input type="text" class="empty sudoku-cell">
+<input type="text" class=" sudoku-cell" value="4" disabled>
+<input type="text" class="empty sudoku-cell">
+
+
+        </div>
+
+        <!-- Right-side Controls -->
+        <div class="controls">
+            <div class="difficulty-levels">
+                <a href="Sudoku.html" id ="easy">Easy</a>
+                <a href="medium.html"id="medium">Medium</a>
+                <a href="#" id="hard">Hard</a>
+            </div>
+
+            <div class="status-bar">
+                <span>Score: 0</span>
+                <span>Time: 00:00</span>
+            </div>
+
+            <div class="action-buttons">
+                <button id="undoButton">Undo</button>
+                <button id="eraseButton">Erase</button>
+                <button id="notesButton">Notes</button>
+            </div>
+
+            <div class="buttons-grid">
+                <!-- Number Pad -->
+                <button class="key key1">1</button>
+                <button class="key key2">2</button>
+                <button class="key key3">3</button>
+                <button class="key key4">4</button>
+                <button class="key key5">5</button>
+                <button class="key key6">6</button>
+                <button class="key key7">7</button>
+                <button class="key key8">8</button>
+                <button class="key key9">9</button>
+            </div>
+
+            <button class="new-game">New Game</button>
+            
+        </div>
+        <button class="solution">Solution</button>
+    </div>
+</body>
+</html>
