@@ -42,11 +42,17 @@ JavaScript – Game logic and interactivity
 
 
 ├── index.html
+
 ├── medium.html
+
 ├── hard.html
+
 ├── style.css
+
 ├── script.js
+
 ├── logo.jpg
+
 └── README.md
 
 # How to Run
