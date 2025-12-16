@@ -1,102 +1,77 @@
 # Sudoku Web Game
 
-# 
-
-# A clean and interactive \*\*Sudoku web game\*\* built using \*\*HTML, CSS, and JavaScript\*\*. The game provides a classic 9×9 Sudoku board with difficulty levels, timer, score tracking, and helpful gameplay controls.
-
-# 
-
-# 
+A clean and interactive \*\*Sudoku web game\*\* built using \*\*HTML, CSS, and JavaScript\*\*. The game provides a classic 9×9 Sudoku board with difficulty levels, timer, score tracking, and helpful gameplay controls. 
 
 # Features
 
-# 
 
-# 9×9 Sudoku grid with 3×3 sub-grids
+9×9 Sudoku grid with 3×3 sub-grids
 
-# Difficulty levels: \*\*Easy, Medium, Hard\*\*
+Difficulty levels: \*\*Easy, Medium, Hard\*\*
 
-# Real-time \*\*timer\*\*
+Real-time \*\*timer\*\*
 
-# Score tracking
+Score tracking
 
-# Number pad (1–9) for easy input
+Number pad (1–9) for easy input
 
-# Undo last action
+Undo last action
 
-# Erase selected cell
+Erase selected cell
 
-# Notes mode for pencil marks
+Notes mode for pencil marks
 
-# Solution button to reveal the correct grid
+Solution button to reveal the correct grid
 
-# New Game button to restart with a fresh puzzle
+New Game button to restart with a fresh puzzle
 
-# Responsive and user-friendly UI
+Responsive and user-friendly UI
 
-# 
-# 
+
 # Tech Stack
 
-# 
+HTML – Structure of the game
 
-# HTML – Structure of the game
+CSS – Styling and layout
 
-# CSS – Styling and layout
+JavaScript – Game logic and interactivity
 
-# JavaScript – Game logic and interactivity
 
-# 
-# 
 
 # Project Structure
 
-# 
 
-# ├── index.html
-
-# ├── medium.html
-
-# ├── hard.html
-
-# ├── style.css
-
-# ├── script.js
-
-# ├── logo.jpg
-
-# └── README.md
-# 
-# 
+├── index.html
+├── medium.html
+├── hard.html
+├── style.css
+├── script.js
+├── logo.jpg
+└── README.md
 
 # How to Run
 
-# 1\. Clone or download the repository.
+1\. Clone or download the repository.
 
-# 2\. Open `index.html` in any modern web browser.
+2\. Open `index.html` in any modern web browser.
 
-# 3\. Select a difficulty level and start playing.
+3\. Select a difficulty level and start playing.
 
-# 
 
-# No additional setup or dependencies are required.
+No additional setup or dependencies are required.
 
-# 
-# 
 
 #  Gameplay Instructions
 
+Click on an empty cell to select it.
 
+Choose a number from the number pad.
 
-# Click on an empty cell to select it.
+Use Notes to add possible values.
 
-# Choose a number from the number pad.
+Use Undo to revert the last move.
 
-# Use Notes to add possible values.
-
-# Use Undo to revert the last move.
-
-# Use Erase to clear a cell.
+Use Erase to clear a cell.
 
 # Click Solution to view the completed Sudoku.
 
