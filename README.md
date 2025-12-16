@@ -1,4 +1,4 @@
-# \# Sudoku Web Game
+# Sudoku Web Game
 
 # 
 
@@ -6,63 +6,52 @@
 
 # 
 
-# ---
+# 
+
+# Features
 
 # 
 
-# \## Features
+# 9×9 Sudoku grid with 3×3 sub-grids
+
+# Difficulty levels: \*\*Easy, Medium, Hard\*\*
+
+# Real-time \*\*timer\*\*
+
+# Score tracking
+
+# Number pad (1–9) for easy input
+
+# Undo last action
+
+# Erase selected cell
+
+# Notes mode for pencil marks
+
+# Solution button to reveal the correct grid
+
+# New Game button to restart with a fresh puzzle
+
+# Responsive and user-friendly UI
+
+# 
+# 
+# Tech Stack
 
 # 
 
-# \* 9×9 Sudoku grid with 3×3 sub-grids
+# HTML – Structure of the game
 
-# \* Difficulty levels: \*\*Easy, Medium, Hard\*\*
+# CSS – Styling and layout
 
-# \* Real-time \*\*timer\*\*
-
-# \* \*\*Score tracking\*\*
-
-# \* Number pad (1–9) for easy input
-
-# \* \*\*Undo\*\* last action
-
-# \* \*\*Erase\*\* selected cell
-
-# \* \*\*Notes\*\* mode for pencil marks
-
-# \* \*\*Solution\*\* button to reveal the correct grid
-
-# \* \*\*New Game\*\* button to restart with a fresh puzzle
-
-# \* Responsive and user-friendly UI
+# JavaScript – Game logic and interactivity
 
 # 
-
-# ---
-
 # 
 
-# \## Tech Stack
+# Project Structure
 
 # 
-
-# \* \*\*HTML\*\* – Structure of the game
-
-# \* \*\*CSS\*\* – Styling and layout
-
-# \* \*\*JavaScript\*\* – Game logic and interactivity
-
-# 
-
-# ---
-
-# 
-
-# \## Project Structure
-
-# 
-
-# ```
 
 # ├── index.html
 
@@ -77,18 +66,10 @@
 # ├── logo.jpg
 
 # └── README.md
-
-# ```
-
+# 
 # 
 
-# ---
-
-# 
-
-# \## How to Run
-
-# 
+# How to Run
 
 # 1\. Clone or download the repository.
 
@@ -101,24 +82,21 @@
 # No additional setup or dependencies are required.
 
 # 
-
-# ---
-
 # 
 
-# \## Gameplay Instructions
+#  Gameplay Instructions
 
-# 
 
-# \* Click on an empty cell to select it.
 
-# \* Choose a number from the number pad.
+# Click on an empty cell to select it.
 
-# \* Use \*\*Notes\*\* to add possible values.
+# Choose a number from the number pad.
 
-# \* Use \*\*Undo\*\* to revert the last move.
+# Use Notes to add possible values.
 
-# \* Use \*\*Erase\*\* to clear a cell.
+# Use Undo to revert the last move.
 
-# \* Click \*\*Solution\*\* to view the completed Sudoku.
+# Use Erase to clear a cell.
+
+# Click Solution to view the completed Sudoku.
 
